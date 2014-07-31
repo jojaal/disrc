@@ -3,7 +3,7 @@ namespace DAO;
 use Entity\User;
 
 // Stockage de l'utilisateur dans la $_SESSION
-class DAOUserSession implements iDAOUser 
+class DAOUserSession implements iDAOUser
 {
   private $user;
 
@@ -15,8 +15,7 @@ class DAOUserSession implements iDAOUser
     if (!$this->user) {
       if (isset($_SESSION['user'])) {
         $this->user = unserialize($_SESSION['user']);
-      }
-      else {
+      } else {
         $this->user = new User('Sans nom', 'Sans prenom', 0);
       }
     }
@@ -27,7 +26,7 @@ class DAOUserSession implements iDAOUser
     On enregistre l'utilisateur dans la session et on met notre objet
     $this->user à jour.
     Suite à la sérialisation, $_SESSION est maintenant équivalent à :
-    array(1) { ["user"]=> string(82) "C:11:"Entity\User":58:{a:3:{i:0;s:13:"van Beethoven";i:1;s:6:"Ludwig";i:2;i:302;}}" }
+    array(1) { ["user"]=> string(82) "C:11:"Entity\User":58:{a:3:{i:0;s:13:"Beethoven";i:1;s:6:"Ludwig";i:2;i:302;}}" }
     */
   public function register($nom, $prenom, $age) {
     $this->getUser()->setNom($nom);
