@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="DependencyInjections" default="build">
-	<target name="build" depends="prepare, lint" />
+	<target name="build" depends="prepare, lint, phpunit" />
 
 	<target name="prepare" depends="clean">
 		<mkdir dir="${basedir}/build/api" />
@@ -31,5 +31,9 @@
 				<modified/>
 			</fileset>
 		</apply>
+	</target>
+
+	<target name="phpunit">
+		<exec executable="phpunit" failonerror="true"/>
 	</target>
 </project>
