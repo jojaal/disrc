@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="IMIE-CI" tests="4" assertions="4" failures="0" errors="0" time="0.082918">
+    <testsuite name="ServiceUserTest" file="/home/android/di/tests/unit/serviceusertest.php" tests="1" assertions="1" failures="0" errors="0" time="0.082053">
+      <testcase name="testFullName" class="ServiceUserTest" file="/home/android/di/tests/unit/serviceusertest.php" line="8" assertions="1" time="0.082053"/>
+    </testsuite>
+    <testsuite name="UserTest" file="/home/android/di/tests/unit/usertest.php" tests="3" assertions="3" failures="0" errors="0" time="0.000865">
+      <testcase name="testGetPrenom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="8" assertions="1" time="0.000650"/>
+      <testcase name="testGetNom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="17" assertions="1" time="0.000000"/>
+      <testcase name="testGetAge" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="26" assertions="1" time="0.000215"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
