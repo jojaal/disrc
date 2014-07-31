@@ -9,7 +9,8 @@ class DAOUserCookie implements iDAOUser
   private $expire;
 
   // On défini la date d'expiration du cookie dans le constructeur
-  function __construct() {
+  function __construct()
+  {
     $this->expire = time() + 3600;
   }
 
@@ -19,8 +20,8 @@ class DAOUserCookie implements iDAOUser
     */
   public function getUser()
   {
-    if(!$this->user) {
-      if(isset($_COOKIE['user'])) {
+    if (!$this->user) {
+      if (isset($_COOKIE['user'])) {
         $this->user = unserialize($_COOKIE['user']);
       } else {
         $this->user = new User('Sans nom', 'Sans prenom', 0);

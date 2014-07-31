@@ -11,8 +11,8 @@ class Dic
   }
 
   /*
-    Si $dao n'est pas instancié, DIC::getDAO() instancie un DAO de la classe
-    indiquée dans le fichier de configuration.
+    Si $dao n'est pas instancié, DIC::getDAO() instancie un
+    DAO de la classe indiquée dans le fichier de configuration.
     DIC::getDAO() retourne le $dao.
     */
   protected static function getDAO()
@@ -27,8 +27,8 @@ class Dic
   }
 
   /*
-    Si $srvc n'est pas instancié, DIC::service() instancie un service de la classe
-    indiquée dans le fichier de configuration.
+    Si $srvc n'est pas instancié, DIC::service() instancie un
+    service de la classe indiquée dans le fichier de configuration.
     DIC::service() retourne le $srvc.
     */
   public static function service()
