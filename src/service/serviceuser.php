@@ -31,6 +31,7 @@ class ServiceUser implements iServiceUser {
   }
 
   public function fullName() {
+    //return $this->getUser()->getPrenom().' '.$this->getUser()->getNom();
     return $this->userDAO->get('prenom').' '.$this->userDAO->get('nom');
   }
 

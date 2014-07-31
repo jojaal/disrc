@@ -1,6 +1,6 @@
 <?php
 
-class ServiceUserTest extends PHPUnit_Framework_TestCase
+class ServiceUserTestTu extends PHPUnit_Framework_TestCase
 {
 	protected $mock;
 
@@ -12,6 +12,7 @@ class ServiceUserTest extends PHPUnit_Framework_TestCase
 
 	/**
 	 * cover Service\ServiceUser::fullName()
+	 * This is a UT as it uses a mock instead of a class dependency.
 	 */
 	public function testFullName()
 	{

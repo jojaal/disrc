@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.5.3">
+<file name="/home/android/di/src/config.php">
+ <error line="8" column="1" severity="warning" message="Consider putting global function &quot;conf&quot; in a static class" source="Squiz.Functions.GlobalFunction.Found"/>
+</file>
+<file name="/home/android/di/src/dao/daousersession.php">
+ <error line="6" column="42" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="7" column="11" severity="error" message="Private member variable &quot;user&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="10" column="1" severity="warning" message="Line exceeds 80 characters; contains 82 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="13" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="14" column="5" severity="error" message="Expected &quot;if (...) {\n&quot;; found &quot;if(...) {\n&quot;" source="PEAR.ControlStructures.ControlSignature"/>
+ <error line="15" column="7" severity="error" message="Expected &quot;if (...) {\n&quot;; found &quot;if(...) {\n&quot;" source="PEAR.ControlStructures.ControlSignature"/>
+ <error line="18" column="7" severity="error" message="Expected &quot;} else {\n&quot;; found &quot;}\n      else {\n&quot;" source="PEAR.ControlStructures.ControlSignature"/>
+ <error line="29" column="1" severity="error" message="Line exceeds maximum limit of 120 characters; contains 123 characters" source="Generic.Files.LineLength.MaxExceeded"/>
+ <error line="31" column="49" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="39" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="44" column="37" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+</file>
+<file name="/home/android/di/src/dao/idaouser.php">
+ <error line="8" column="20" severity="error" message="Opening brace of a interface must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+</file>
+<file name="/home/android/di/src/dao/daousercookie.php">
+ <error line="6" column="41" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="7" column="11" severity="error" message="Private member variable &quot;user&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="8" column="11" severity="error" message="Private member variable &quot;expire&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="11" column="26" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="16" column="1" severity="warning" message="Line exceeds 80 characters; contains 81 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="19" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="20" column="5" severity="error" message="Expected &quot;if (...) {\n&quot;; found &quot;if(...) {\n&quot;" source="PEAR.ControlStructures.ControlSignature"/>
+ <error line="21" column="7" severity="error" message="Expected &quot;if (...) {\n&quot;; found &quot;if(...) {\n&quot;" source="PEAR.ControlStructures.ControlSignature"/>
+ <error line="35" column="1" severity="error" message="Line exceeds maximum limit of 120 characters; contains 125 characters" source="Generic.Files.LineLength.MaxExceeded"/>
+ <error line="37" column="49" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="45" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="50" column="37" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+</file>
+<file name="/home/android/di/src/service/iserviceuser.php">
+ <error line="8" column="24" severity="error" message="Opening brace of a interface must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+</file>
+<file name="/home/android/di/src/service/serviceuser.php">
+ <error line="5" column="1" severity="warning" message="Line exceeds 80 characters; contains 82 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="8" column="43" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="9" column="11" severity="error" message="Private member variable &quot;userDAO&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="11" column="41" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="15" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="19" column="29" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="23" column="49" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="28" column="37" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="33" column="30" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="38" column="31" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+</file>
+<file name="/home/android/di/src/dic.php">
+ <error line="30" column="1" severity="warning" message="Line exceeds 80 characters; contains 83 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="/home/android/di/src/entity/user.php">
+ <error line="9" column="37" severity="error" message="Opening brace of a class must be on the line after the definition" source="PEAR.Classes.ClassDeclaration.OpenBraceNewLine"/>
+ <error line="10" column="11" severity="error" message="Private member variable &quot;nom&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="11" column="11" severity="error" message="Private member variable &quot;prenom&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="12" column="11" severity="error" message="Private member variable &quot;age&quot; must contain a leading underscore" source="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+ <error line="15" column="45" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="28" column="31" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="33" column="38" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="41" column="28" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="45" column="31" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="49" column="28" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="53" column="32" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="57" column="38" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+ <error line="61" column="32" severity="error" message="Opening brace should be on a new line" source="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+</file>
+</checkstyle>
