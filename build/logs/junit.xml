@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="IMIE-CI" tests="5" assertions="5" failures="0" errors="0" time="0.004695">
-    <testsuite name="ServiceUserTestTu" file="/home/android/di/tests/unit/serviceusertest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003283">
-      <testcase name="testFullName" class="ServiceUserTestTu" file="/home/android/di/tests/unit/serviceusertest.php" line="17" assertions="1" time="0.003283"/>
+  <testsuite name="IMIE-CI" tests="5" assertions="5" failures="0" errors="0" time="0.004054">
+    <testsuite name="ServiceUserTestTu" file="/home/android/di/tests/unit/serviceusertest.php" tests="1" assertions="1" failures="0" errors="0" time="0.002869">
+      <testcase name="testFullName" class="ServiceUserTestTu" file="/home/android/di/tests/unit/serviceusertest.php" line="17" assertions="1" time="0.002869"/>
     </testsuite>
-    <testsuite name="UserTest" file="/home/android/di/tests/unit/usertest.php" tests="3" assertions="3" failures="0" errors="0" time="0.000674">
-      <testcase name="testGetPrenom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="8" assertions="1" time="0.000430"/>
-      <testcase name="testGetNom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="17" assertions="1" time="0.000118"/>
-      <testcase name="testGetAge" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="26" assertions="1" time="0.000126"/>
+    <testsuite name="UserTest" file="/home/android/di/tests/unit/usertest.php" tests="3" assertions="3" failures="0" errors="0" time="0.000656">
+      <testcase name="testGetPrenom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="8" assertions="1" time="0.000420"/>
+      <testcase name="testGetNom" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="17" assertions="1" time="0.000125"/>
+      <testcase name="testGetAge" class="UserTest" file="/home/android/di/tests/unit/usertest.php" line="26" assertions="1" time="0.000111"/>
     </testsuite>
-    <testsuite name="ServiceUserTestTi" file="/home/android/di/tests/integration/daousersessiontest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000738">
-      <testcase name="testGetUser" class="ServiceUserTestTi" file="/home/android/di/tests/integration/daousersessiontest.php" line="8" assertions="1" time="0.000738"/>
+    <testsuite name="ServiceUserTestTi" file="/home/android/di/tests/integration/daousersessiontest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000529">
+      <testcase name="testGetUser" class="ServiceUserTestTi" file="/home/android/di/tests/integration/daousersessiontest.php" line="8" assertions="1" time="0.000529"/>
     </testsuite>
   </testsuite>
 </testsuites>

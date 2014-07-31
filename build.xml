@@ -38,7 +38,7 @@
 	</target>
 
 	<target name="phpcs">
-		<exec executable="phpcs" failonerror="true">
+		<exec executable="phpcs">
 			<arg path="${basedir}/src" />
 			<arg value="--standard=Zend" />
 			<arg value="--ignore=${basedir}/src/web"/>
