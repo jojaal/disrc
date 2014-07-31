@@ -5,7 +5,8 @@ namespace Service;
   L'interface iServiceUser expose le comportement que toutes les classes de
   service d'utilisateur devront implémenter.
   */
-interface iServiceUser {
+interface iServiceUser
+{
   // on oblige la classe à recevoir un dao en parametre à la construction
   function __construct($userDAO);
   // register(...) permet d'enregistrer l'utilisateur dans l'espace de stockage
