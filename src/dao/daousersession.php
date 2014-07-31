@@ -3,7 +3,8 @@ namespace DAO;
 use Entity\User;
 
 // Stockage de l'utilisateur dans la $_SESSION
-class DAOUserSession implements iDAOUser {
+class DAOUserSession implements iDAOUser 
+{
   private $user;
 
   /*
@@ -11,8 +12,8 @@ class DAOUserSession implements iDAOUser {
     il n'existe pas, puis le retourner.
     */
   public function getUser() {
-    if(!$this->user) {
-      if(isset($_SESSION['user'])) {
+    if (!$this->user) {
+      if (isset($_SESSION['user'])) {
         $this->user = unserialize($_SESSION['user']);
       }
       else {
