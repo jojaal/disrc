@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/android/di/src/dic.php">Dic</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+    <Package name="DAO">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0.33333333333333</A>
+        <I>1</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/android/di/src/dao/daousercookie.php">DAOUserCookie</Class>
+        <Class sourceFile="/home/android/di/src/dao/daousersession.php">DAOUserSession</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/android/di/src/dao/idaouser.php">iDAOUser</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>Entity</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Entity">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/android/di/src/entity/user.php">User</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>DAO</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Service">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0.5</A>
+        <I>0</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/android/di/src/service/serviceuser.php">ServiceUser</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/android/di/src/service/iserviceuser.php">iServiceUser</Class>
+      </AbstractClasses>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

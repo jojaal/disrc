@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="DependencyInjections" default="build">
-	<target name="build" depends="prepare, lint, phpunit, phpcs" />
+	<target name="build" depends="prepare, lint, phpunit, phpcs, pdepend" />
 
 	<target name="prepare" depends="clean">
 		<mkdir dir="${basedir}/build/api" />
@@ -44,6 +44,13 @@
 			<arg value="--ignore=${basedir}/src/web"/>
 			<arg value="--report=checkstyle"/>
 			<arg value="--report-file=${basedir}/build/logs/checkstyle.xml"/>
+		</exec>
+	</target>
+
+	<target name="pdepend">
+		<exec executable="pdepend">
+			<arg value="--jdepend-xml=${basedir}/build/logs/jdepend.xml" />	
+			<arg path="${basedir}/src" />
 		</exec>
 	</target>
 </project>
